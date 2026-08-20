@@ -3,26 +3,33 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Katalog Store</title>
+    <title>Aplikasi Saya</title>
     <style>
-        body, html {
+        * {
             margin: 0;
             padding: 0;
+            box-sizing: border-box;
+        }
+        html, body {
+            width: 100%;
             height: 100%;
             overflow: hidden;
         }
         iframe {
-            position: absolute;
-            top: 0;
-            left: 0;
             width: 100%;
             height: 100%;
             border: none;
+            display: block;
         }
     </style>
 </head>
 <body>
-    <!-- Link Google Apps Script kamu ditampilkan secara penuh (100%) -->
-    <iframe src="https://script.google.com/macros/s/AKfycbx-Ibr8b_098sFB_-igXRdRs3svZSakFmNRBhPejGPntEM6TowizefGUSYSgNX0x6vu/exec" allow="camera"></iframe>
+
+    <!-- Ganti URL di bawah dengan URL Deployment Google Apps Script Anda -->
+    <iframe 
+        src="https://script.google.com/macros/s/AKfycbx-Ibr8b_098sFB_-igXRdRs3svZSakFmNRBhPejGPntEM6TowizefGUSYSgNX0x6vu/exec/exec" 
+        allow="geolocation; microphone; camera">
+    </iframe>
+
 </body>
 </html>
