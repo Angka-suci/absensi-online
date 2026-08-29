@@ -1,0 +1,14 @@
+{
+  "background_color": "#000000",
+  "dir": "ltr",
+  "display": "standalone",
+  "name": "Sistem Absensi Online",
+  "orientation": "any",
+  "scope": "/absensi-online/",
+  "short_name": "Absensi",
+  "start_url": "/absensi-online/",
+  "theme_color": "#000000",
+  "id": "/absensi-online",
+  "description": "Aplikasi absensi online berbasis GPS real-time",
+  "lang": "id"
+}
